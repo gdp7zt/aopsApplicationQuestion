@@ -1,7 +1,8 @@
 function SolvePyramid(pyramid, target){
-
+    //Create a path variable to store the correct path own the pyramid
     let path = [];
 
+    //Once the path is found, this will turn it into the desired syntax containing Rs and Ls
     function convertPath(path){
         let pathString = "";
         for (let i = 0; i < path.length - 1; i++) {
@@ -14,13 +15,17 @@ function SolvePyramid(pyramid, target){
         return pathString;
     }
 
+    //Alters the background color of the inputs that are part of the correct path
     function highLightBackGround(path){
+
+        //If previous path was found, remove it
         let prevPath = document.querySelectorAll('.path');
         if(prevPath !== null){
             prevPath.forEach(element => {
                 element.classList.remove('path');
             })
         }
+        //Mark the new path
         let rows = document.querySelectorAll('.row');
         for(let i = 0; i < path.length; i++){
             let children = rows[i].childNodes;
@@ -29,6 +34,7 @@ function SolvePyramid(pyramid, target){
     }
 
     function dfs(row, col, product){
+        //Take a recursive approach using DFS to find a path that results in the correct product
         if(row === pyramid.length - 1){
             if(product * pyramid[row][col] === parseInt(target)){
                 path.push([row,col]);
