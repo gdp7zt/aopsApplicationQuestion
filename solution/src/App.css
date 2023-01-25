@@ -1,0 +1,27 @@
+#solveButton{
+  border: none;
+  background-color: rgb(158, 158, 158);
+  border-radius: 4px;
+  width: 150px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.solve{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+.solution{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
