@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f3b4575.css",
-    "main.js": "/static/js/main.d94d210e.js",
-    "index.html": "/index.html",
-    "main.2f3b4575.css.map": "/static/css/main.2f3b4575.css.map",
-    "main.d94d210e.js.map": "/static/js/main.d94d210e.js.map"
+    "main.css": "/aopsApplicationQuestion/static/css/main.2f3b4575.css",
+    "main.js": "/aopsApplicationQuestion/static/js/main.d94d210e.js",
+    "index.html": "/aopsApplicationQuestion/index.html",
+    "main.2f3b4575.css.map": "/aopsApplicationQuestion/static/css/main.2f3b4575.css.map",
+    "main.d94d210e.js.map": "/aopsApplicationQuestion/static/js/main.d94d210e.js.map"
   },
   "entrypoints": [
     "static/css/main.2f3b4575.css",
